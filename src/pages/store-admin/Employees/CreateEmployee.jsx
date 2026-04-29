@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '@/context/store-admin/ThemeContext';
 import { ArrowLeft } from 'lucide-react';
-import { useEmployees } from '@/pages/auth/store-admin/Employees/context/EmployeeContext';
-import EmployeeForm from '@/pages/auth/store-admin/Employees/EmployeeForm';
+import { useEmployees } from '@/pages/store-admin/Employees/context/EmployeeContext';
+import EmployeeForm from '@/pages/store-admin/Employees/EmployeeForm';
 
 const CreateEmployee = () => {
   const { isDark } = useTheme();

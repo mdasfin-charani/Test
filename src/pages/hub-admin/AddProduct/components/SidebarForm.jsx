@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTheme } from '@/context/hub-admin/ThemeContext';
-import '@/pages/auth/hub-admin/AddProduct/styles/SidebarForm.css';
+import '@/pages/hub-admin/AddProduct/styles/SidebarForm.css';
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 

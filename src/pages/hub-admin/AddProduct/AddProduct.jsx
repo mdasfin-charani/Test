@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import SidebarForm from '@/pages/auth/hub-admin/AddProduct/styles/SidebarForm.css';
-import ProductPreview from '@/pages/auth/hub-admin/AddProduct/styles/ProductPreview.css';
+import SidebarForm from '@/pages/hub-admin/AddProduct/components/SidebarForm.jsx';
+import ProductPreview from '@/pages/hub-admin/AddProduct/components/ProductPreview.jsx';
 import { useTheme } from '@/context/hub-admin/ThemeContext';
-import '@/pages/auth/hub-admin/AddProduct/styles/ProductPage.css';
+import '@/pages/hub-admin/AddProduct/styles/ProductPage.css';
 
 const AddProduct = () => {
   const [products, setProducts] = useState([]);

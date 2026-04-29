@@ -12,7 +12,7 @@ import {
     Package
 } from 'lucide-react';
 import { useTheme } from '@/context/store-admin/ThemeContext';
-import { brandsData } from '@/pages/auth/store-admin/Brands/data/brandsData';
+import { brandsData } from '@/pages/store-admin/Brands/data/brandsData';
 
 const BrandDetail = () => {
     const { id } = useParams();

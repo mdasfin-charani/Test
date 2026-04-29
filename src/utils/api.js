@@ -15,4 +15,18 @@ const api = axios.create({
 // api.interceptors.request.use(config => { ... });
 // api.interceptors.response.use(response => { ... }, error => { ... });
 
+export const API_HEADERS = {
+  'Content-Type': 'application/json',
+};
+
+export const API = {
+  STATISTICS: '/api/statistics',
+  SELLERS: '/api/sellers',
+  STORES: '/api/stores',
+  PRODUCTS: '/api/products',
+  ORDERS: '/api/orders',
+  DELIVERY_PARTNERS: '/api/delivery-partners',
+  REVIEWS: '/api/reviews',
+};
+
 export default api;

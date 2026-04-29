@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProductCard from '@/pages/auth/hub-admin/AddProduct/styles/ProductCard.css';
+import ProductCard from '@/pages/hub-admin/AddProduct/components/ProductCard.jsx';
 import { useTheme } from '@/context/hub-admin/ThemeContext';
-import '@/pages/auth/hub-admin/AddProduct/styles/ProductPreview.css';
+import '@/pages/hub-admin/AddProduct/styles/ProductPreview.css';
 
 const ProductPreview = ({ products, onFinalSubmit }) => {
   const navigate = useNavigate();

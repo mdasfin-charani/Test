@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '@/context/store-admin/ThemeContext';
-import { useEmployees } from '@/pages/auth/store-admin/Employees/context/EmployeeContext';
+import { useEmployees } from '@/pages/store-admin/Employees/context/EmployeeContext';
 import { Save, X } from 'lucide-react';
 
 const INITIAL_FORM = {

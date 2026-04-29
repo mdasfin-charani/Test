@@ -1,5 +1,5 @@
 import React from 'react';
-import QuantityControl from '@/pages/auth/store-admin/Brands/components/QuantityControl';
+import QuantityControl from '@/pages/store-admin/Brands/components/QuantityControl';
 
 // Renders a single product card: image, name, quantity badge, and quantity control.
 const ProductItem = ({ product, quantity, onIncrease, onDecrease }) => {

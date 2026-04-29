@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import '@/pages/auth/hub-admin/AddProduct/styles/FinalSummary.css';
+import '@/pages/hub-admin/AddProduct/styles/FinalSummary.css';
 
 const FinalSummary = () => {
   const location = useLocation();

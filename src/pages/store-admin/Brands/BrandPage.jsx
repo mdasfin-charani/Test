@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import BrandList from '@/pages/auth/store-admin/Brands/components/BrandList';
+import BrandList from '@/pages/store-admin/Brands/components/BrandList';
 import { Award } from 'lucide-react';
 import { useTheme } from '@/context/store-admin/ThemeContext';
-import { brandsData } from '@/pages/auth/store-admin/Brands/data/brandsData';
+import { brandsData } from '@/pages/store-admin/Brands/data/brandsData';
 
 const BrandPage = () => {
     const navigate = useNavigate();

@@ -10,8 +10,8 @@ import { useProfile } from '@/context/hub-admin/ProfileContext';
 import NotificationDropdown from '@/components/global/hub-admin/NotificationDropdown';
 import LanguageDropdown from '@/components/global/hub-admin/LanguageDropdown';
 
-import { navItems } from '@/components/global/Sidebar.jsx';
-import { brandsData } from '@/pages/auth/hub-admin/Brands/data/brandsData';
+import { navItems } from '@/layouts/HubAdminSidebar.jsx';
+import { brandsData } from '@/pages/hub-admin/Brands/data/brandsData';
 
 const Navbar = () => {
   const { isDark, toggleTheme } = useTheme();

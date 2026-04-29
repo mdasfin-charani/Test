@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductItem from '@/pages/auth/hub-admin/Brands/components/ProductItem';
+import ProductItem from '@/pages/hub-admin/Brands/components/ProductItem';
 import { Box } from 'lucide-react';
 
 // Renders the product grid for the current page.

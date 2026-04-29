@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTheme } from '@/context/store-admin/ThemeContext';
-import { useEmployees } from '@/pages/auth/store-admin/Employees/context/EmployeeContext';
+import { useEmployees } from '@/pages/store-admin/Employees/context/EmployeeContext';
 import { ArrowLeft, Edit3, User, Briefcase, Phone, Mail, Hash, MapPin, Calendar, Activity } from 'lucide-react';
-import EmployeeForm from '@/pages/auth/store-admin/Employees/EmployeeForm';
+import EmployeeForm from '@/pages/store-admin/Employees/EmployeeForm';
 
 const EmployeeDetails = () => {
   const { isDark } = useTheme();

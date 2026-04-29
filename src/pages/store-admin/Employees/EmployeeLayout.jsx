@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { EmployeeProvider } from '@/pages/auth/store-admin/Employees/context/EmployeeContext';
+import { EmployeeProvider } from '@/pages/store-admin/Employees/context/EmployeeContext';
 
 const EmployeeLayout = () => {
   return (

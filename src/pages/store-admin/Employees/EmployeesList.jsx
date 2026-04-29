@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useTheme } from '@/context/store-admin/ThemeContext';
 import { Search, Plus, Eye, Briefcase, Mail, Phone, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useEmployees } from '@/pages/auth/store-admin/Employees/context/EmployeeContext';
+import { useEmployees } from '@/pages/store-admin/Employees/context/EmployeeContext';
 
 const EmployeesList = () => {
   const { isDark } = useTheme();

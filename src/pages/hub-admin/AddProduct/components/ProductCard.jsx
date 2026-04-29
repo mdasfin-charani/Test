@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from '@/context/hub-admin/ThemeContext';
-import '@/pages/auth/hub-admin/AddProduct/styles/ProductCard.css';
+import '@/pages/hub-admin/AddProduct/styles/ProductCard.css';
 
 const ProductCard = ({ product }) => {
   const { isDark } = useTheme();

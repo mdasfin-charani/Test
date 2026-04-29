@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, Filter, Calendar } from 'lucide-react';
-import BrandCard from '@/pages/auth/hub-admin/Brands/components/BrandCard';
+import BrandCard from '@/pages/hub-admin/Brands/components/BrandCard';
 import { useTheme } from '@/context/hub-admin/ThemeContext';
 
 // Renders the full brand listing grid inside the card (header filters + brand cards).
