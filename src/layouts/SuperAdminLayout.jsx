@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Sidebar from '@/components/global/Sidebar.jsx';
+import Sidebar from '@/layouts/SuperAdminSidebar.jsx';
 import Navbar from './SuperAdminNavbar.jsx';
 import Footer from '@/components/global/hub-admin/Footer';
 import { useTheme } from '@/context/super-admin/ThemeContext';

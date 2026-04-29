@@ -5,7 +5,7 @@ import {
   CreditCard, User, Star, Award, BarChart2,
   ChevronLeft, Menu, PlusCircle, Briefcase, Store, Truck
 } from 'lucide-react';
-import { useTheme } from '@/context/hub-admin/ThemeContext';
+import { useTheme } from '@/context/store-admin/ThemeContext';
 import logoImg from '@/assets/logo.png';
 import primebasketLogoImg from '@/assets/primebasket-logo.png';
 

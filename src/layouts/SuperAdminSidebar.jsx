@@ -4,7 +4,7 @@ import {
   User, BarChart2,
   ChevronLeft, Menu, Shield, UserPlus
 } from 'lucide-react';
-import { useTheme } from '@/context/hub-admin/ThemeContext';
+import { useTheme } from '@/context/super-admin/ThemeContext';
 import primebasketLogoImg from '@/assets/primebasket-logo.png';
 
 const Sidebar = ({ isMinimized, setMinimized }) => {

@@ -5,8 +5,8 @@ import {
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import avatarImg from '@/assets/avatar.png';
-import { useTheme } from '@/context/hub-admin/ThemeContext';
-import { useProfile } from '@/context/hub-admin/ProfileContext';
+import { useTheme } from '@/context/store-admin/ThemeContext';
+import { useProfile } from '@/context/store-admin/ProfileContext';
 import NotificationDropdown from '@/components/global/hub-admin/NotificationDropdown';
 import LanguageDropdown from '@/components/global/hub-admin/LanguageDropdown';
 
